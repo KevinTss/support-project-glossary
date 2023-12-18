@@ -36,6 +36,9 @@ jobs:
           node-version: 18.x
           cache: pnpm
 
+      - name: Install PNPM
+        run: npm i -g pnpm
+
       - name: Install dependencies
         run: |
           pnpm install --frozen-lockfile --non-interactive
