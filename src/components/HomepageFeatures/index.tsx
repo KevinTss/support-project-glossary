@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Clear Understanding',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Unlock insights effortlessly with our glossary's intuitive design. Navigate complex terms effortlessly, gaining a clear understanding of media discussions.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Demystifying Language',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Empower yourself with simplified explanations of industry jargon. Our glossary breaks down complex terminology, making media content accessible to everyone.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Your Key to Media Literacy',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Navigate news and discussions with confidence. Our user-friendly glossary provides concise and approachable definitions, ensuring you grasp the nuances of today's complex topics.
       </>
     ),
   },

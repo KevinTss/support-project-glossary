@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/support-project-glossary/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -60,13 +60,13 @@ const config: Config = {
     navbar: {
       title: PROJECT_NAME,
       logo: {
-        alt: 'My Site Logo',
+        alt: `${PROJECT_NAME} Logo`,
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'glossary',
           position: 'left',
           label: 'Glossary',
         },
