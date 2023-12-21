@@ -99,7 +99,7 @@ const config: Config = {
           items: [
             {
               label: 'Give feedbacks',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://docs.google.com/forms/d/e/1FAIpQLScqVA3IbSvmjFLzJ49cISit_3zARi8WD7zxBwlWBm-tvJNYlA/viewform',
             },
             // {
             //   label: 'Discord',
